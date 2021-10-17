@@ -1,4 +1,4 @@
-#include "GameOfLife.h"
+#include "../headers/GameOfLife.h"
 
 GameOfLife::GameOfLife(const int w, const int h): width(w), height(h) {
     grid = new bool*[width];

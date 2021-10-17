@@ -1,6 +1,6 @@
 UNAME = $(shell uname)
 CC = g++
-SRC = ConfigFile.cpp main.cpp GameOfLife.cpp
+SRC = utilities/ConfigFile.cpp main.cpp utilities/GameOfLife.cpp
 EXEC = game
 # Linux library flags
 LDFLAGS	= -lGL -lglut -lGLU

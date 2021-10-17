@@ -8,8 +8,8 @@
 #  include <GL/glut.h>
 #endif
 
-#include "GameOfLife.h"
-#include "ConfigFile.h"
+#include "headers/GameOfLife.h"
+#include "headers/ConfigFile.h"
 
 #include <iostream>
 
