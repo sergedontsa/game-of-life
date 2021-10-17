@@ -1,7 +1,7 @@
 UNAME = $(shell uname)
 CC = g++
 SRC = utilities/ConfigFile.cpp main.cpp utilities/GameOfLife.cpp
-EXEC = game
+EXEC = comp-426-ass-1
 # Linux library flags
 LDFLAGS	= -lGL -lglut -lGLU
 # MacOS library flags

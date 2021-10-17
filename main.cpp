@@ -18,8 +18,8 @@
 
 // values are read from "game.config"
 GLint FPS = 24;
-GLint window_width = 600;
-GLint window_height = 600;
+GLint window_width = 1024;
+GLint window_height = 768;
 GLfloat left = 0.0;
 GLfloat right = 1.0;
 GLfloat bottom = 0.0;
@@ -96,11 +96,11 @@ void readConfiguration(char* file) {
 
 bool checkConfiguration() {
 	if (left > right) {
-		std::cout << "Ortographic projection values error: 'left' must be less than 'right'" << std::endl;
+		std::cout << "Projection values error: 'left' must be less than 'right'" << std::endl;
 		return false;
 	}
 	if (bottom > top) {
-		std::cout << "Ortographic projection values error: 'bottom' must be less than 'top'" << std::endl;
+		std::cout << "Projection values error: 'bottom' must be less than 'top'" << std::endl;
 		return false;
 	}
 	if (window_width <= 0 || window_height <= 0 || game_width <= 0 || game_height <= 0) {
