@@ -1,0 +1,3 @@
+/Users/sergedontsa/Documents/dev/c++/comp426/game-of-life-assi-1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/sergedontsa/Documents/dev/c++/comp426/game-of-life-assi-1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/sergedontsa/Documents/dev/c++/comp426/game-of-life-assi-1/cmake-build-debug/CMakeFiles/game_of_life_assi_1.dir
